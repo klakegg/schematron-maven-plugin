@@ -1,0 +1,12 @@
+language: java
+jdk:
+  - openjdk7
+  - oraclejdk7
+  - oraclejdk8
+install:
+  - mvn package
+script:
+  - mvn verify -Prun-its
+cache:
+  directories:
+    - '$HOME/.m2/repository'

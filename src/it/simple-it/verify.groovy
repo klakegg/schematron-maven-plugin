@@ -1,3 +1,2 @@
-File expectedFile = new File(basedir, "target/classes/DUMMY.xsl");
-
-assert expectedFile.isFile()
+assert new File(basedir, "target/classes/DUMMY.xsl").isFile()
+assert new File(basedir, "target/classes/subfolder/DUMMY.xsl").isFile()

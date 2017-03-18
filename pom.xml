@@ -4,12 +4,33 @@
 
   <groupId>net.klakegg.plugin</groupId>
   <artifactId>schematron-maven-plugin</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.1.0-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
 
   <name>Schematron Maven Plugin</name>
-
   <url>https://github.com/klakegg/schematron-maven-plugin</url>
+
+  <scm>
+    <tag>HEAD</tag>
+    <url>https://github.com/klakegg/schematron-maven-plugin</url>
+    <connection>scm:git:https://github.com/klakegg/schematron-maven-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:klakegg/schematron-maven-plugin.git</developerConnection>
+  </scm>
+
+  <issueManagement>
+    <url>https://github.com/klakegg/schematron-maven-plugin/issues</url>
+    <system>GitHub Issues</system>
+  </issueManagement>
+
+  <developers>
+    <developer>
+      <name>Erlend Klakegg Bergheim</name>
+      <email>erlend@klakegg.net</email>
+      <roles>
+        <role>Author</role>
+      </roles>
+    </developer>
+  </developers>
 
   <properties>
     <java.version>1.7</java.version>
